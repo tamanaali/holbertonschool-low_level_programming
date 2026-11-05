@@ -16,3 +16,5 @@ exercise6. the program executes single digit number of base 10 using int variabl
 exercise7. the program executes lowercase alphabets in reverse followed by a new line
 
 exercise8. the program executes/print all the numbers of base 16 in lowercase, followed by a new line.
+
+exercise9. the program executes all possible combinations of single-digit numbers separated by comma followed by space and printed in ascending order
