@@ -8,3 +8,5 @@ exercise2. the program prints the alphabet in lowercase using putchar with a new
 excercise3, the programs executes lowercase and uppercase alphabets using two while loops and 3 putchar funtion
 
 exercise4. the program prints all lowercase alphabets except q,e using the if statement inside while loop
+
+exercise5. the program executes single digit numbers of base 10 starting from 0 
