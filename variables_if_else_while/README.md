@@ -12,3 +12,5 @@ exercise4. the program prints all lowercase alphabets except q,e using the if st
 exercise5. the program executes single digit numbers of base 10 starting from 0
 
 exercise6. the program executes single digit number of base 10 using int variable instead of char variable. char > int number = 0; vs int > int number;next line  number = 0;
+
+exercise7. the program executes lowercase alphabets in reverse followed by a new line
