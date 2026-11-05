@@ -6,3 +6,5 @@ exercise1. the program prints a random number each time and check whether the la
 exercise2. the program prints the alphabet in lowercase using putchar with a new line at the end
 
 excercise3, the programs executes lowercase and uppercase alphabets using two while loops and 3 putchar funtion
+
+exercise4. the program prints all lowercase alphabets except q,e using the if statement inside while loop
