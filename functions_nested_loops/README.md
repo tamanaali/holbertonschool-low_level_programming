@@ -25,3 +25,7 @@ Prototype: void jack_bauer(void);
 exercise9. Write a function that prints the 9 times table, starting with 0.
 
 Prototype: void times_table(void);
+
+exercise10. a function that adds two integers and returns the result.
+
+Prototype: int add(int, int);
