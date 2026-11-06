@@ -12,3 +12,8 @@ Returns 0 and prints 0 if n is zero
 Returns -1 and prints - if n is less than zero
 
 exercise6. a function that computes the absolute value of an integer using: int _abs(int);
+
+exercise7. a function that prints the last digit of a number.
+
+Prototype: int print_last_digit(int);
+Returns the value of the last digit
