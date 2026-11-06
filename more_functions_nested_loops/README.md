@@ -9,3 +9,7 @@ exrcise1. a function that checks for a digit (0 through 9).
 Prototype: int _isdigit(int c);
 Returns 1 if c is a digit
 Returns 0 otherwise
+
+exercise2. a function that multiplies two integers.
+
+Prototype: int mul(int a, int b);
