@@ -10,3 +10,7 @@ julien@ubuntu:~/$ cat 1-main.c
 2. Write a function that returns the length of a string.
 
 Prototype: int _strlen(char *s);
+
+3. Write a function that prints a string, followed by a new line, to stdout.
+
+Prototype: void _puts(char *str);
