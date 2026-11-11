@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * strcpy - copies the string pointed to by src to dest
+ * _strcpy - copies the string pointed to by src to dest
  * @dest: destination buffer where the string is copied
  * @src: source string to be copied
  *
- * Return: nothing
+ * Return: pointer to dest
  */
 
 
@@ -23,6 +23,7 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
+
 	return (dest);
 
 }
