@@ -1,6 +1,6 @@
 
 
-task0. Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+0. Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 i
 
 Prototype: void reset_to_98(int *n);
@@ -58,3 +58,11 @@ You are not allowed to use long
 You are not allowed to declare new variables of "type" array
 You are not allowed to hard-code special values
 We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
+
+MORE POINTERS, ARRAYS, AND STRINGS
+
+0. Write a function that concatenates two strings.
+
+Prototype: char *_strcat(char *dest, char *src);
+This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
+Returns a pointer to the resulting string dest
