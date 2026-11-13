@@ -3,7 +3,8 @@
 /**
  * _strpbrk - searches a string for any set of bytes
  * @s: the main string we want to search
- * @accept: the string containing the characters we are looking for a match of them in s
+ * @accept: the string containing the characters we
+ * are looking for a match of them in s
  *
  * Return: the found matching characters
  */
