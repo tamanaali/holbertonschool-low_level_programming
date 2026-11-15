@@ -5,8 +5,8 @@
 int main()
 { 
 	int choice;
-	int num1, num2;
-	int result;
+	double num1, num2;
+	double result;
 
 	while (1) {
 		
@@ -38,30 +38,30 @@ int main()
 
 		printf("Please enter the numbers \n");
 		printf("A: ");
-		scanf("%d", &num1);
+		scanf("%lf", &num1);
 
 		printf("B: ");
-		scanf("%d", &num2);
+		scanf("%lf", &num2);
 
 		switch (choice)
 		{
 			case 1:
 				result = num1 + num2;
-					printf("Result %d\n", result);
+					printf("Result %.1f\n", result);
 				break;
 			case 2:
 				result = num1 - num2;
-					printf("Result %d\n", result);
+					printf("Result %.1f\n", result);
 				break;
 			case 3:
 				result = num1 * num2;
-					printf("Result %d\n", result);
+					printf("Result %.1f\n", result);
 				break;
 			case 4:
 				if (num2 != 0)
 				{
 					result = num1 / num2;
-					printf("Result %d\n", result);
+					printf("Result %.1f\n", result);
 				}
 				else 
 				{
