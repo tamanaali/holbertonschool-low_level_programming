@@ -17,8 +17,14 @@ char *create_array(unsigned int size, char c)
 	/** Declares a counter to track array positions.*/
 	unsigned int i;
 
-	arr = malloc((size) * sizeof(char));
+
 	if (size == 0)
+	{
+		return (NULL);
+	}
+	arr = malloc((size) * sizeof(char));
+
+	if (arr == NULL)
 	{
 		return (NULL);
 	}
