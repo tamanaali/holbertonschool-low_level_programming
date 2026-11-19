@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * malloc_cheked - allocates memory using malloc
+ * malloc_checked - allocates memory using malloc
  * @b: number of bytes to allocate
  * void: a generic pointer that can point to different data types
  * malloc() allocates memory without knowing which data type u intend to store
