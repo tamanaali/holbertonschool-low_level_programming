@@ -24,7 +24,7 @@ int *array_range(int min, int max)
 
 	for (i = 0; i < size; i++)
 	{
-		memoryptr[i] = min + 1;
+		memoryptr[i] = min + i;
 	}
 
 	return (memoryptr);
